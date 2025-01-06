@@ -15,7 +15,7 @@ export function init(
     {
       ...config,
       isStreamable: true,
-      defaultBaseUrl: `${getExternalConfigURL()}/api/v1`,
+      defaultBaseUrl: "https://openrouter.ai/api/v1",
       getPath: () => "/chat/completions",
       getRoutePath: () => "/model",
       endOfStreamSentinel: "[DONE]",
